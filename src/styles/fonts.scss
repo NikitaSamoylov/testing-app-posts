@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'SpaceGrotesk-Bold';
+  src: local('SpaceGrotesk-Bold'),
+    url('../assets/fonts/SpaceGrotesk-Bold.woff2') format('woff2'),
+    url('../assets/fonts/SpaceGrotesk-Bold.woff') format('woff'),
+    url('../assets/fonts/SpaceGrotesk-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SpaceGrotesk-Regular';
+  src: local('SpaceGrotesk-Regular'),
+    url('../assets/fonts/SpaceGrotesk-Regular.woff2') format('woff2'),
+    url('../assets/fonts/SpaceGrotesk-Regular.woff') format('woff'),
+    url('../assets/fonts/SpaceGrotesk-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: local('Roboto-Bold'),
+    url('../assets/fonts/Roboto-Bold.woff2') format('woff2'),
+    url('../assets/fonts/Roboto-Bold.woff') format('woff'),
+    url('../assets/fonts/Roboto-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: local('Roboto-Regular'),
+    url('../assets/fonts/Roboto-Regular.woff2') format('woff2'),
+    url('../assets/fonts/Roboto-Regular.woff') format('woff'),
+    url('../assets/fonts/Roboto-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+} 
+
+@font-face {
+  font-family: 'Jakarta-Semibold';
+  src: local('Jakarta-Semibold'),
+    url('../assets/fonts/plus-jakarta-sans-cyrillic-ext-600-normal.woff') format('woff'),
+    url('../assets/fonts/plus-jakarta-sans-cyrillic-ext-600-normal.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+} 
+
+@font-face {
+  font-family: 'Jakarta-Medium';
+  src: local('Jakarta-Medium'),
+    url('../assets/fonts/plus-jakarta-sans-cyrillic-ext-500-normal.woff') format('woff'),
+    url('../assets/fonts/plus-jakarta-sans-cyrillic-ext-500-normal.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+} 
