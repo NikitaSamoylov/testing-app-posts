@@ -1,11 +1,10 @@
-import React from "react";
-import logo from "./logo.svg";
 import "./App.scss";
+import { MainPage } from "pages";
 
 function App() {
   return (
     <div className="App">
-      Space Grotesk font
+      <MainPage/>
     </div>
   )
 }
