@@ -5,3 +5,15 @@
 .hero {
   margin-bottom: 32px;
 }
+
+.page {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 15px;
+}
+
+.main {
+  min-width: 63%;
+}
+

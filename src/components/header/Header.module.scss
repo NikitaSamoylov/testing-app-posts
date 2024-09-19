@@ -1,14 +1,54 @@
 .header {
-  width: 100%;
-  padding: 22px 0;
-  background-color: #D3DCE7;
+  padding: 24px 17px;
   border-radius: 16px;
+  background-color: #D3DCE7;
   margin-top: 29px;
+  margin-right: 15px;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  transition: .3s;
+  flex-grow: 1;
+  width: 98px;
+
+  &_open {
+    width: 452px !important;
+  }
+
+  &__arrow {
+    position: absolute;
+    top: 20px;
+    right: -65px;
+    z-index: 3;
+    padding: 10px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    z-index: 2;
+    background-color: #fff;
+    cursor: pointer;
+  }
+
+  &__arrow_open {
+    transform: translateX(-102%) rotate(180deg);
+    background-color: transparent;
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
 
   &__title {
     font-family: 'SpaceGrotesk-Bold';
-    font-size: 2.4rem;
-    line-height: 3.2rem;
-    padding-left: 50px;
+    font-size: 3.2rem;
+    text-transform: uppercase;
+    margin-left: 24px;
+    transition: .3s;
+  }
+
+  &__title_none {
+    visibility: hidden;
   }
 }

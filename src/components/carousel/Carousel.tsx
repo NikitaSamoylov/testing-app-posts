@@ -12,7 +12,7 @@ import { posts } from './posts';
 const CarouselSlider: React.FC = () => {
 
   return (
-    <div className='container'>
+    <div>
       <h2 className={styles.carousel__header}>
         Похожие посты
       </h2>

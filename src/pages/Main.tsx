@@ -1,16 +1,21 @@
-import { Header } from "components/header";
+import { PostTitle } from "components/post-title";
 import { Hero } from "components/hero";
 import { PostContent } from "components/post-content";
-import styles from './Main.module.scss';
 import { CarouselSlider } from "components/carousel";
+import { Header } from "components/header";
+import styles from './Main.module.scss';
+import { MenuArrow } from "icons/menu-arrow";
 
 const MainPage: React.FC = () => {
   return (
-    <>
-    <header className={styles.header}>
-      <Header/>
-    </header>
-      <main>
+    <div className={styles.page}>
+      <header className={styles.header__content}>
+        <Header/>
+      </header>
+      <main className={styles.main}>
+        <section className={styles.header}>
+          <PostTitle/>
+        </section>
         <section className={styles.hero}>
           <Hero/>
         </section>
@@ -21,7 +26,7 @@ const MainPage: React.FC = () => {
           <CarouselSlider/>
         </section>
       </main>
-    </>
+    </div>
   )
 };
 
