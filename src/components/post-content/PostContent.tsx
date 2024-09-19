@@ -7,7 +7,10 @@ const PostContent: React.FC = () => {
       {
         post.map(item => (
           <>
-          <h2 className={styles.postContent__title} key={item.title}>
+          <h2 className={styles.postContent__title} 
+          key={item.title}
+          id={item.title}
+          >
             {item.title}
           </h2>
           {

@@ -3,6 +3,7 @@ import { Logo } from 'icons/logo';
 import { PageNav } from 'components/page-nav';
 import { MenuArrow } from 'icons/menu-arrow';
 import { PageNavIcons } from 'components/page-nav-icons';
+import { ArticleNav } from 'components/article-nav';
 import styles from './Header.module.scss';
 
 const Header: React.FC = () => {
@@ -58,10 +59,17 @@ const Header: React.FC = () => {
         <PageNavIcons/>
         {
         isHeaderContent && (
-          <PageNav/>
+          <>
+            <PageNav/>
+          </>
+        )
+        }
+      </div>
+      {
+        isHeaderContent && (
+          <ArticleNav/>
         )
       }
-      </div>
     </div>
   )
 };

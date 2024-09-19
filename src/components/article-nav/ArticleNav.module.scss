@@ -1,0 +1,54 @@
+.nav {
+
+  &__container {
+    margin-left: 19px;
+  }
+
+  &__list {
+    margin-left: 9px;
+  }
+
+  &__title {
+    font-family: 'RobotoCondensed-Bold';
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    margin-bottom: 16px;
+  }
+
+  &__item:not(:last-child) {
+    margin-bottom: 16px;
+  }
+
+  &__link {
+    font-family: 'Roboto-Bold';
+    font-size: 2rem;
+    line-height: 2.4rem;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  &__number {
+    position: relative;
+    top: -3px;
+    font-family: 'RhodiumLibre-Regular';
+    font-size: 1.6rem;
+    z-index: 5;
+    line-height: 2.4rem;
+    color: #fff;
+    margin-right: 15px;
+  }
+
+  &__number::before {
+    content: '';
+    display: flex;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    z-index: -2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    border-radius: 50%;
+  }
+}

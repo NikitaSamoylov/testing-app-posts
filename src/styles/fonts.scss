@@ -55,3 +55,23 @@
   font-weight: normal;
   font-style: normal;
 } 
+
+@font-face {
+  font-family: 'RobotoCondensed-Bold';
+  src: local('RobotoCondensed-Bold'),
+    url('../assets/fonts/RobotoCondensed-Bold.woff') format('woff'),
+    url('../assets/fonts/RobotoCondensed-Bold.woff2') format('woff2'),
+    url('../assets/fonts/RobotoCondensed-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+} 
+
+@font-face {
+  font-family: 'RhodiumLibre-Regular';
+  src: local('RhodiumLibre-Regular'),
+    url('../assets/fonts/RhodiumLibre-Regular.woff') format('woff'),
+    url('../assets/fonts/RhodiumLibre-Regular.woff2') format('woff2'),
+    url('../assets/fonts/RhodiumLibre-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+} 
