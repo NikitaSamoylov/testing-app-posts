@@ -2,25 +2,20 @@
   margin-top: 32px;
 
   &__item:not(:last-child) {
-    margin-bottom: 24px;
-  }
-
-  &__item {
-
-    & > span {
-      margin-right: 10px;
+      margin-bottom: 24px;
     }
-  }
+  
+    &__item {
+  
+      & > span {
+        margin-right: 10px;
+      }
+    }
 
   &__item_text {
     font-weight: 'Roboro-Regular';
     font-size: 3.2rem;
     line-height: 2.4rem;
     cursor: pointer;
-  }
-
-  &__item_link {
-    text-decoration: none;
-    color: inherit;
   }
 }

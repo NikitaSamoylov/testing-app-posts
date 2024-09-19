@@ -1,10 +1,22 @@
+import { Link } from 'react-router-dom';
+import { navItems } from './page-nav';
 import styles from './PageNav.module.scss';
-
 
 const PageNav: React.FC = () => {
   return (
-    <div style={{ display: 'flex', height: '100vh', overflow: 'scroll initial' }}>
-    </div>
+    <ul className={styles.nav}>
+      {
+        navItems.map(item => (
+          <li key={item.title} className={styles.nav__item}>
+            <span className={styles.nav__item_text}>
+              <Link to={"/"} className={styles.nav__item_link}>
+                {item.title}
+              </Link>
+            </span>
+          </li>
+        ))
+      }
+    </ul>
   );
 };
 
