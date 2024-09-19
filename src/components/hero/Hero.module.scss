@@ -3,13 +3,10 @@
   min-height: 408px;
   border-radius: 24px;
   background-color: #EFF2F6;
-}
-
-.hero_icon {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  background-image: url('../../assets/images/bgImage.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
 }
 
 .hero_content {
