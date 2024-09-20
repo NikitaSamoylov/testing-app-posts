@@ -9,6 +9,10 @@
   transition: .3s;
   min-height: 720px;
 
+  @media (max-width: 1440px) {
+    display: none;
+  }
+
   &_open {
     width: 452px !important;
   }

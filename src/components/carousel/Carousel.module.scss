@@ -1,4 +1,5 @@
 .carousel {
+  overflow-x: auto;
   
   &__header {
     font-family: 'SpaceGrotesk-Bold';
@@ -21,10 +22,82 @@
     font-size: 1.6rem;
     line-height: 2.4rem;
     padding-right: 13px;
+    width: 390px;
   }
 
   &__slide {
-    margin-right: 5px;
-    margin-left: 5px;
+    margin-right: 15px !important;
+  }
+
+  &__img {
+    width: 390px;
+    margin-right: 15px;
+  }
+
+  @media (max-width: 1344px) {
+    &__img {
+      max-width: 510px;
+      margin-right: 15px;
+    }
+
+    &__descr {
+      width: 510px;
+    }
+  }
+
+  @media (max-width: 1170px) {
+    &__img {
+      width: 410px;
+      margin-right: 15px;
+    }
+
+    &__descr {
+      width: 410px;
+    }
+  }
+
+  @media (max-width: 967px) {
+    &__img {
+      width: 340px;
+      margin-right: 15px;
+    }
+
+    &__descr {
+      width: 340px;
+    }
+  }
+
+  @media (max-width: 967px) {
+    &__img {
+      width: 300px;
+      margin-right: 15px;
+    }
+
+    &__descr {
+      width: 300px;
+    }
+  }
+
+  @media (max-width: 967px) {
+    &__img {
+      width: 250px;
+      margin-right: 15px;
+    }
+
+    &__descr {
+      width: 250px;
+    }
+  }
+
+  @media (max-width: 554px) {
+    &__img {
+      width: 100%;
+      margin-right: 3%;
+    }
+
+    &__descr {
+      width: 100%;
+      margin-right: 3%;
+    }
   }
 }

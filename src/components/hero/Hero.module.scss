@@ -19,6 +19,23 @@
   background-color: #D3DCE7;
   padding: 30px 24px;
 
+  @media (max-width: 630px) {
+    & {
+      left: 90px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    & {
+      left: 0;
+      width: 100%;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+      border-bottom-left-radius: 16px;
+      border-bottom-right-radius: 16px;
+    }
+  }
+
   &__title {
     font-family: 'SpaceGrotesk-Bold';
     font-size: 2.4rem;

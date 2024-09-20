@@ -17,3 +17,25 @@
   min-width: 63%;
 }
 
+.header_desktop {
+  display: block;
+}
+
+.header_mobile {
+  display: none;
+}
+
+@media (max-width: 506px) {
+  .header_mobile {
+    display: block;
+    position: absolute;
+    top: 0;
+    margin-top: 36px;
+    z-index: 4;
+  }
+
+  .header_desktop {
+    display: none;
+  }
+}
+
