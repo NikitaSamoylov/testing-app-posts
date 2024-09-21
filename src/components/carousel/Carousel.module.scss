@@ -1,5 +1,4 @@
 .carousel {
-  overflow-x: auto;
   
   &__header {
     font-family: 'SpaceGrotesk-Bold';
@@ -23,10 +22,6 @@
     line-height: 2.4rem;
     padding-right: 13px;
     width: 390px;
-  }
-
-  &__slide {
-    margin-right: 15px !important;
   }
 
   &__img {

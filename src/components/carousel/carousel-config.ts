@@ -3,8 +3,9 @@ export const settings = {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 3,
-    arrows: true,
-    initialSlide: 0,
+    arrows: false,
+    initialSlide: 1,
+    variableWidth: false,
     responsive: [
       {
         breakpoint: 1343,

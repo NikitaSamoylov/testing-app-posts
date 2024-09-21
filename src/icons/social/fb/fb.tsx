@@ -35,9 +35,9 @@ const FB: React.FC<TSocial> = ({text, bg}) => {
            width="69.599899"
            height="69.599899"
            filterUnits="userSpaceOnUse"
-           color-interpolation-filters="sRGB">
+           colorInterpolationFilters="sRGB">
           <feFlood
-             flood-opacity="0"
+             floodOpacity="0"
              result="BackgroundImageFix"
              id="feFlood1" />
           <feColorMatrix

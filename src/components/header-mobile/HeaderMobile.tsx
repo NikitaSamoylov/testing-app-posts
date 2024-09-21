@@ -8,21 +8,7 @@ import { PageNavIcons } from 'components/page-nav-icons';
 import { PageNav } from 'components/page-nav';
 
 const HeaderMobile: React.FC = () => {
-  const [isOpen, isHeader, isHeaderContent, handleHeader] = useToggleMenu();
-  const ref = useRef<HTMLDivElement>(null);
-
-  const checkIfClickedOutside = (e: any) => {
-    if (ref.current && !ref.current.contains(e.target)) {
-      handleHeader()
-    }
-  }
-
-  useEffect(() => {
-    document.addEventListener("click", checkIfClickedOutside)
-    return () => {
-      document.removeEventListener("click", checkIfClickedOutside)
-    }
-  }, [handleHeader]);
+  const [isOpen, isHeader, isHeaderContent, handleHeader, ref] = useToggleMenu();
 
   return (
     <header className={

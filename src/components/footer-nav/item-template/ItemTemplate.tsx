@@ -11,7 +11,9 @@ const ItemTemplate: React.FC<TItemTemplate> = ({title, items}) => {
     <ul className={styles.nav__list}>
       {
         items.map(item => (
-          <li className={styles.nav__item}>
+          <li className={styles.nav__item}
+            key={item.title}
+          >
             <a href={item.path}
               className={styles.nav__link}
             >

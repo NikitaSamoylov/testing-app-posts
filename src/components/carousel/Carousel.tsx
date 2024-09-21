@@ -3,6 +3,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { settings } from "./carousel-config";
 import styles from './Carousel.module.scss';
+import './carousel.styles.default.css';
 
 import { posts } from './posts';
 
@@ -15,7 +16,9 @@ const CarouselSlider: React.FC = () => {
       <Slider {...settings}>
         {
           posts.map(post => (
-            <div className={styles.carousel__slide} style={{width: '300px'}}>
+            <div className={styles.carousel__slide}
+              key={post.title}
+            >
               <img src={post.img} alt="картинка"
                 className={styles.carousel__img}
               />

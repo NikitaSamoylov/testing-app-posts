@@ -5,10 +5,10 @@ const PostContent: React.FC = () => {
   return (
     <div className={styles.postContent}>
       {
-        post.map(item => (
-          <>
+        post.map((item, i) => (
+          <div key={i}>
           <h2 className={styles.postContent__title} 
-          key={item.title}
+          key={i}
           id={item.title}
           >
             {item.title}
@@ -31,7 +31,7 @@ const PostContent: React.FC = () => {
                 </p>
               )
           }
-          </>
+          </div>
         ))
       }
     </div>

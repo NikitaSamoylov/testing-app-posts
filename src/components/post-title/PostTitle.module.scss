@@ -75,6 +75,8 @@
   }
 
   &__title {
+    position: relative;
+    top: -15px;
     font-family: 'SpaceGrotesk-Bold';
     font-size: 3.2rem;
     text-transform: uppercase;

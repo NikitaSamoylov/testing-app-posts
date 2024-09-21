@@ -7,7 +7,7 @@ import { PageNavIcons } from 'components/page-nav-icons';
 import { useToggleMenu } from 'hooks/useToggleMenu';
 
 const PostTitle: React.FC = () => {
-  const [isHeader, isOpen, isHeaderContent, handleHeader] = useToggleMenu();
+  const [isHeader, isOpen, isHeaderContent, handleHeader, ref] = useToggleMenu();
 
   return (
     <div className={styles.postTitle}>
@@ -22,7 +22,7 @@ const PostTitle: React.FC = () => {
               {
                 isOpen && (
                   <span className={styles.header__title }>
-                    {isHeader}
+                    {isOpen}
                   </span> 
                 )
               }
@@ -32,6 +32,7 @@ const PostTitle: React.FC = () => {
               ? `${styles.header__arrow} ${styles.header__arrow_open}` 
               : styles.header__arrow}
                 onClick={handleHeader}
+                ref={ref}
             >
               <MenuArrow/>
             </div>
