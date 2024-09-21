@@ -11,6 +11,8 @@
   align-items: flex-start;
   justify-content: center;
   padding: 0 15px;
+  max-width: 1392px;
+  margin: 0 auto;
 }
 
 .main {
@@ -37,5 +39,9 @@
   .header_desktop {
     display: none;
   }
+}
+
+.carousel {
+  margin-bottom: 47px;
 }
 

@@ -1,0 +1,29 @@
+.nav {
+
+  &__list {
+    margin-right: 25px;
+  }
+
+  &__title {
+    font-family: 'Roboto-Regular';
+    font-size: 2rem;
+    line-height: 150%;
+    letter-spacing: -2%;
+    margin-bottom: 24px;
+    padding-top: 37px;
+  }
+
+  &__item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  &__link {
+    text-decoration: none;
+    font-family: 'Roboto-Regular';
+    font-size: 1.6rem;
+    line-height: 150%;
+    letter-spacing: -2%;
+    color: inherit;
+    cursor: pointer;
+  }
+}
