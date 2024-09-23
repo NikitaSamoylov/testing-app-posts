@@ -1,12 +1,12 @@
 import { Logo } from 'icons/logo';
 import styles from './Footer.module.scss';
-import { FB } from 'icons/social/fb';
-import { Twitter } from 'icons/social/twitter';
-import { Insta } from 'icons/social/insta';
-import { AboutItems } from 'components/footer-nav/footer-items/about-items';
-import { CommunityItems } from 'components/footer-nav/footer-items/community-items';
-import { SocialItems } from 'components/footer-nav/footer-items/social-items';
-import { FooterCopyright } from 'components/footer-copyright';
+import { FB } from 'icons/fb';
+import { Twitter } from 'icons/twitter';
+import { Insta } from 'icons/insta';
+import { AboutNavItem } from 'components/FooterNav/AboutNavItem';
+import { CommunityNavItem } from 'components/FooterNav/CommunityNavItem';
+import { SocialNavItem } from 'components/FooterNav/SocialNavItem';
+import { FooterCopyright } from 'components/FooterCopyright';
 
 const Footer: React.FC = () => {
   return (
@@ -37,9 +37,9 @@ const Footer: React.FC = () => {
             </div>
           </div>
           <div className={styles.footer__socials_nav}>
-            <AboutItems/>
-            <CommunityItems/>
-            <SocialItems/>
+            <AboutNavItem/>
+            <CommunityNavItem/>
+            <SocialNavItem/>
           </div>
         </div>
         <FooterCopyright/>

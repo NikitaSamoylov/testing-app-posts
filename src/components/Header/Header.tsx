@@ -1,8 +1,8 @@
 import { Logo } from 'icons/logo';
-import { PageNav } from 'components/page-nav';
+import { PageNav } from 'components/PageNav';
 import { MenuArrow } from 'icons/menu-arrow';
-import { PageNavIcons } from 'components/page-nav-icons';
-import { ArticleNav } from 'components/article-nav';
+import { PageNavIcons } from 'components/PageNavIcons';
+import { ArticleNav } from 'components/ArticleNav';
 import { useToggleMenu } from 'hooks/useToggleMenu';
 import styles from './Header.module.scss';
 

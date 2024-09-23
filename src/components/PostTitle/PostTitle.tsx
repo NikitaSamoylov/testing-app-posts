@@ -1,13 +1,13 @@
 import { Logo } from 'icons/logo';
 import styles from './PostTitle.module.scss';
 import { MenuArrow } from 'icons/menu-arrow';
-import { ArticleNav } from 'components/article-nav';
-import { PageNav } from 'components/page-nav';
-import { PageNavIcons } from 'components/page-nav-icons';
+import { ArticleNav } from 'components/ArticleNav';
+import { PageNav } from 'components/PageNav';
+import { PageNavIcons } from 'components/PageNavIcons';
 import { useToggleMenu } from 'hooks/useToggleMenu';
 
 const PostTitle: React.FC = () => {
-  const [isHeader, isOpen, isHeaderContent, handleHeader, ref] = useToggleMenu();
+  const [_, isOpen, isHeaderContent, handleHeader, ref] = useToggleMenu();
 
   return (
     <div className={styles.postTitle}>

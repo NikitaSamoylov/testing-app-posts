@@ -1,4 +1,4 @@
-import { post } from 'components/post-content/post';
+import { post } from 'components/PostContent/post';
 import styles from './ArticleNav.module.scss';
 
 const ArticleNav: React.FC = () => {

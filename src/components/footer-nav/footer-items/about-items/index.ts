@@ -1,1 +1,0 @@
-export {AboutItems} from './AboutItems';

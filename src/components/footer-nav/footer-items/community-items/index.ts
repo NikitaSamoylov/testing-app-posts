@@ -1,1 +1,0 @@
-export {CommunityItems} from './CommunityItems';

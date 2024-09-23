@@ -1,14 +1,13 @@
-import { ChangeEvent, ReactNode, useEffect, useRef } from 'react';
 import { Logo } from 'icons/logo';
 import { MenuArrow } from 'icons/menu-arrow';
 import { useToggleMenu } from 'hooks/useToggleMenu';
 import styles from './HeaderMobile.module.scss';
-import { ArticleNav } from 'components/article-nav';
-import { PageNavIcons } from 'components/page-nav-icons';
-import { PageNav } from 'components/page-nav';
+import { ArticleNav } from 'components/ArticleNav';
+import { PageNavIcons } from 'components/PageNavIcons';
+import { PageNav } from 'components/PageNav';
 
 const HeaderMobile: React.FC = () => {
-  const [isOpen, isHeader, isHeaderContent, handleHeader, ref] = useToggleMenu();
+  const [isOpen, _, isHeaderContent, handleHeader, ref] = useToggleMenu();
 
   return (
     <header className={

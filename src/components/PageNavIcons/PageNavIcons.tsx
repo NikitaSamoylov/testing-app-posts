@@ -1,4 +1,4 @@
-import { pageNavIconsArray } from 'components/page-nav/page-nav-icons';
+import { pageNavIconsArray } from 'components/PageNav/page-nav-icons';
 import styles from './PageNavIcons.module.scss';
 
 const PageNavIcons: React.FC = () => {

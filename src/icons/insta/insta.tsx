@@ -1,4 +1,4 @@
-import { TSocial } from "../social.types";
+import { TSocial } from "../../types/social.types";
 
 const Insta: React.FC<TSocial> = ({ bg, text }) => {
   return (
@@ -10,50 +10,6 @@ const Insta: React.FC<TSocial> = ({ bg, text }) => {
       id="svg1"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <defs id="defs1">
-        <filter
-          id="filter0_d_23_159"
-          x="0.200317"
-          y="0"
-          width="69.599899"
-          height="69.599899"
-          filterUnits="userSpaceOnUse"
-          colorInterpolationFilters="sRGB"
-        >
-          <feFlood
-            floodOpacity="0"
-            result="BackgroundImageFix"
-            id="feFlood1"
-          />
-          <feColorMatrix
-            in="SourceAlpha"
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-            result="hardAlpha"
-            id="feColorMatrix1"
-          />
-          <feOffset dy="13" id="feOffset1" />
-          <feGaussianBlur stdDeviation="9" id="feGaussianBlur1" />
-          <feColorMatrix
-            type="matrix"
-            values="0 0 0 0 0.0658854 0 0 0 0 0.0730469 0 0 0 0 0.1375 0 0 0 0.08 0"
-            id="feColorMatrix2"
-          />
-          <feBlend
-            mode="normal"
-            in2="BackgroundImageFix"
-            result="effect1_dropShadow_23_159"
-            id="feBlend2"
-          />
-          <feBlend
-            mode="normal"
-            in="SourceGraphic"
-            in2="effect1_dropShadow_23_159"
-            result="shape"
-            id="feBlend3"
-          />
-        </filter>
-      </defs>
       <g id="layer1" transform="translate(-100.712,-140.61543)">
         <g
           id="g2"
